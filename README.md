@@ -1,6 +1,3 @@
-# DWRLworkshop
-This repository is for the DWRL workshop in January 2024. 
-
 # Introduction
 This workshop will teach participants how to use GitHub (GH) and GitHub Pages to build and host static websites. GH allows for users to store and manage code. And by using GitHub Pages, users are able to publish
 online websites.
