@@ -35,16 +35,29 @@ To see your site, which is just a copy of mine, go back to "Settings" and "Pages
 
 # Step 5: Editing Your Website in GitHub
 
-Editing your website requires familiarity with the repository that you've just forked. I'll identify some of the folders that we can work in and edit today, but you'll have to do the rest.
+Editing your website requires familiarity with the repository that you've just forked. I'll identify some of the folders that we can work in and edit today, but you'll have to do the rest. To edit a page, click the pencil icon on the top right corner of a file. To save your change, click the green "Commit changes" button and confirm the commit. Refresh to see the status of your change.
 
 1. Navigation pages: Under the "Data" folder, you can edit the titles for the navigation pages. Just go to "navigation.yml" and edit the name after "Title:." For example, you can change the title of "Publications" to "Research."
    - After we do this, we'll want to edit the page name and permalink to reflect the title change. Under the "Pages" folder (which holds the files of the navigation pages), find the "Publication.md" file and change the following:
      - At the top, change the file name from "/_pages/publications.md" to "/_pages/research.md
      - Title from "Publications" to "Research
      - Permalink from "/publications/" to "/research/"
+     - You can also change the folder titled "_publications" to research.
+    
+2. Since we're under the "_publications" folder--or, now, what may be the "_research" folder-- let's look at adding research or publication information. The two files titled "publication1.md" and "publication2.md" is where you'll imput information on your research and/or publications. Upon clicking one of those files, you'll see where you can put that data in an section already styled for you. You just have to find and replace.
+   - Finding and replacing data under the other navigation titles is just as simple. Under the "_talks" folder, you'll see the file "_talk1.md" which is where you can put information on talks you've given.
+   - Under "_teaching" and, then, "class1.md," you can input information on the classes you've taught.
+     - However, if you have a second class you'd like to list, you will have to add a file.
+       - Click on "_teaching" and click "Add file" and "Create new file"
+       - Then, name it something like "class2.md" -- and you can always change these names to reflect your class names. Save this file.
+       - Go back to "class1.md" and copy the raw data. Paste this in the "class2.md" file and change the data to fit the new class you're adding. Save and you should see a second class under "Teaching" on your website.
 
-3. Sidebar configuration: The "config.yml" file stores some of the important data for your site and also is where we can change the information on the side bar. Navigate to the "config.yml" and you can find where some of the language in your site corresponds to the code in this file. You can find and change the following:
-   - 
+3. Page name and author configuration: The "config.yml" file stores some of the important data for your site and also is where we can change the information for the page. Navigate to the "config.yml" and you can find where some of the language in your site corresponds to the code in this file. You can find and change the following:
+   - Under site settings, find the "title" column and change "My Homepage" to your name. This will change the title of the page in your browser tab and the name of the page on the site.
+   - Under site author, change "Name1 Name2" to your first and last name. You can change your bio, email, and add in other social links. The information following # shows you how to format code, which is helpful for the social links.
+  
+3. 
+
 
 # Step 6: Editing Your Website with ChatGPT
 
