@@ -35,7 +35,7 @@ To see your site, which is just a copy of mine, go back to "Settings" and "Pages
 
 # Step 5: Editing Your Website in GitHub
 
-Editing your website requires familiarity with the repository that you've just forked. I'll identify some of the folders that we can work in and edit today, but you'll have to do the rest. To edit a page, click the pencil icon on the top right corner of a file. To save your change, click the green "Commit changes" button and confirm the commit. Refresh to see the status of your change.
+Editing your website requires familiarity with the repository that you've just forked. It also requires a little familiarity with Markdown or HTML (here's a helpful style guide for beginners: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). I'll identify some of the folders that we can work in and edit today, but you'll have to do the rest. To edit a page, click the pencil icon on the top right corner of a file. To save your change, click the green "Commit changes" button and confirm the commit. Refresh to see the status of your change.
 
 1. Navigation pages: Under the "Data" folder, you can edit the titles for the navigation pages. Just go to "navigation.yml" and edit the name after "Title:." For example, you can change the title of "Publications" to "Research."
    - After we do this, we'll want to edit the page name and permalink to reflect the title change. Under the "Pages" folder (which holds the files of the navigation pages), find the "Publication.md" file and change the following:
@@ -60,12 +60,168 @@ Editing your website requires familiarity with the repository that you've just f
 
 ChatGPT can generate code that, in my experience, is very reliable if you know how to phrase your question right. This is a really helpful resource if you're new to coding and sometimes don't know either (1) what you're doing and/or (2) don't know how to look for what you want in your website. For example, say you want a 2 column CV under the CV header. What you need is two horizontal containers, which is difficult to know if you aren't familiar with HTML. If we ask Chatgpt to "In HTML, please write code for a 2-column CV for my website," it will give you code for two horizontal containers. ChatGPT bypasses the language needed to even begin to searching the internet, which is why I recommend using it for more complicated code. 
 
+When I asked ChatGPT to develop this 2-column CV, below is the response, which can be copy and pasted in the CV.md file under "Pages". This comes up a little weird with the Jekyll style being used, so we may want to ask ChatGPT to generate a new format or to remove the box coming up at the top of the page. 
 
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #ffffff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        section {
+            float: left;
+            width: 70%;
+        }
+
+        aside {
+            float: right;
+            width: 30%;
+            background: #ddd;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>Summary</h2>
+            <p>Your brief summary goes here.</p>
+
+            <h2>Experience</h2>
+            <h3>Job Title</h3>
+            <p>Company Name, Location</p>
+            <p>Date - Date</p>
+            <ul>
+                <li>Responsibility #1</li>
+                <li>Responsibility #2</li>
+            </ul>
+
+            <!-- Add more experience sections as needed -->
+
+            <h2>Education</h2>
+            <h3>Degree</h3>
+            <p>University Name, Location</p>
+            <p>Date - Date</p>
+
+            <!-- Add more education sections as needed -->
+
+        </section>
+
+        <aside>
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: your.email@example.com</li>
+                <li>Phone: (123) 456-7890</li>
+                <li>LinkedIn: linkedin.com/in/yourname</li>
+                <li>GitHub: github.com/yourusername</li>
+            </ul>
+
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <!-- Add more skills as needed -->
+            </ul>
+
+            <!-- Add additional sections such as certifications, projects, etc. -->
+
+        </aside>
+
+    </div>
+
+</body>
+
+</html>
+
+Or, if you know what you want ChatGPT to generate, asking for the code can still be helpful as ChatGPT usually will write the entire document for you-- like the elements for the body, head, and etc. ChatGPT may also style what you're looking for, which you can delete, change, or keep. For example, I want to use an iframe for my CV that is in a Google Doc. If I ask ChatGPT to "Please write an iframe for my CV," this is the code I get: 
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+</head>
+
+<body>
+
+    <h1>Welcome to My Website</h1>
+
+    <iframe src="cv.html" width="800" height="1000" frameborder="0"></iframe>
+
+    <!-- Additional content for your website -->
+
+</body>
+
+</html>
+
+
+Now, all I need to do is put in the iframe for my CV. To do this, follow these steps:
+1. Navigate to Google Docs and your CV document
+2. Click "Edit" and then "Share"
+3. Instead of "Link" click "Embed." Confirm your choice.
+4. Copy the iframe
+
+Once you have the iframe, just replace either the entire iframe line or the link in quotes. Now, when you update your CV, you don't have to update it in two places; just update the iframe link in your website. 
 
 # Step 7: Connecting a Domain
 
+While this website is free, the only part that you can choose to pay for is the domain. You don't have to do this; you can just direct people to the site's URL that GitHub generates for your (username + GitHub.io + repository name). It is quite long, though. I decided to use a domain because it was still cheaper than hosting a website on a site like SquareSpace, which is still $5 per month. I used Google Domains, which doesn't exist any more, but I'm guessing connecting domains to your site is pretty similar among providers. 
 
+I decided to forward users instead of connecting the domain via GitHub. This way I can build different sites and switch between them more seamlessly. Basically, any time someone navigates to "www.trentwintermeier.com" or "trentwintermeier.com" they are forwarded to my GitHub URL. This is opposite to changing the domain in GitHub which actually changes the URL through GitHub pages. You can do the latter option in your settings and going to "Pages." If plan to change your site repository one day, or move from GitHub to Square Space (when you're making "big" academic money), you only need to update information with your domain provider.
+
+For now, you can build as many websites as you'd like (for free!) and put the long URL somewhere or hyperlink it in other spaces. 
+
+# You now have a free website! Woohoo!
 
 
 
