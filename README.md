@@ -1,13 +1,3 @@
-<details>
-  <summary>
-Introduction
-  </summary>
-
-This workshop will teach participants how to use GitHub (GH) and GitHub Pages to build and host static websites. GH allows for users to store and manage code. And by using GitHub Pages, users are able to publish
-online websites.
-
-</details>
-
 # Introduction
 This workshop will teach participants how to use GitHub (GH) and GitHub Pages to build and host static websites. GH allows for users to store and manage code. And by using GitHub Pages, users are able to publish
 online websites.
@@ -43,7 +33,19 @@ It may take a minute to build-- which is to say that any time you make a change 
 
 To see your site, which is just a copy of mine, go back to "Settings" and "Pages," and then at the top of that section there should be a box that reads "Your site s live at [link]." Click that link or "Visit Site" to see your published website. This is completely live, so anyone with this link can see this page. Notice that your website link is your GH username and repository name-- we'll talk about domains later.
 
-# Step 5: Editing Your Website
+# Step 5: Editing Your Website in GitHub
+
+Editing your website requires familiarity with the repository that you've just forked. I'll identify some of the folders that we can work in and edit today, but you'll have to do the rest.
+
+1. Under the "Data" folder, you can edit the titles for the navigation pages. Just go to "navigation.yml" and edit the name after "Title:." For example, you can change the title of "Publications" to "Research."
+- After we do this, we'll want to edit the page name and permalink to reflect the title change. 
+
+# Step 6: Editing Your Website with ChatGPT
+
+
+
+
+# Step 7: Connecting a Domain
 
 
 
