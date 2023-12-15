@@ -55,11 +55,10 @@ Editing your website requires familiarity with the repository that you've just f
 3. Page name and author configuration: The "config.yml" file stores some of the important data for your site and also is where we can change the information for the page. Navigate to the "config.yml" and you can find where some of the language in your site corresponds to the code in this file. You can find and change the following:
    - Under site settings, find the "title" column and change "My Homepage" to your name. This will change the title of the page in your browser tab and the name of the page on the site.
    - Under site author, change "Name1 Name2" to your first and last name. You can change your bio, email, and add in other social links. The information following # shows you how to format code, which is helpful for the social links.
-  
-3. 
-
 
 # Step 6: Editing Your Website with ChatGPT
+
+ChatGPT can generate code that, in my experience, is very reliable if you know how to phrase your question right. This is a really helpful resource if you're new to coding and sometimes don't know either (1) what you're doing and/or (2) don't know how to look for what you want in your website. For example, say you want a 2 column CV under the CV header. What you need is two horizontal containers, which is difficult to know if you aren't familiar with HTML. If we ask Chatgpt to "In HTML, please write code for a 2-column CV for my website," it will give you code for two horizontal containers. ChatGPT bypasses the language needed to even begin to searching the internet, which is why I recommend using it for more complicated code. 
 
 
 
