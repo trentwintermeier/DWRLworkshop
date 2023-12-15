@@ -38,7 +38,10 @@ To see your site, which is just a copy of mine, go back to "Settings" and "Pages
 Editing your website requires familiarity with the repository that you've just forked. I'll identify some of the folders that we can work in and edit today, but you'll have to do the rest.
 
 1. Under the "Data" folder, you can edit the titles for the navigation pages. Just go to "navigation.yml" and edit the name after "Title:." For example, you can change the title of "Publications" to "Research."
-   - After we do this, we'll want to edit the page name and permalink to reflect the title change. 
+   - After we do this, we'll want to edit the page name and permalink to reflect the title change. Under the "Pages" folder (which holds the files of the navigation pages), find the "Publication.md" file and change the following:
+     - At the top, change the file name from "/_pages/publications.md" to "/_pages/research.md
+     - Title from "Publications" to "Research
+     - Permalink from "/publications/" to "/research/"
 
 # Step 6: Editing Your Website with ChatGPT
 
