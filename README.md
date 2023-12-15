@@ -1,6 +1,8 @@
 <details>
   <summary>
+    <p>
     # Introduction
+      </p>
   </summary>
 
 This workshop will teach participants how to use GitHub (GH) and GitHub Pages to build and host static websites. GH allows for users to store and manage code. And by using GitHub Pages, users are able to publish
