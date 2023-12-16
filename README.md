@@ -41,9 +41,13 @@ Editing your website requires familiarity with the repository that you've just f
 <summary>1. Navigation pages: Under the "Data" folder, you can edit the titles for the navigation pages. Just go to "navigation.yml" and edit the name after "Title:." For example, you can change the title of "Publications" to "Research."</summary>
 <br>
    - After we do this, we'll want to edit the page name and permalink to reflect the title change. Under the "Pages" folder (which holds the files of the navigation pages), find the "Publication.md" file and change the following:
+   <br><br>
      - At the top, change the file name from "/_pages/publications.md" to "/_pages/research.md
+      <br><br>
      - Title from "Publications" to "Research
+      <br><br>
      - Permalink from "/publications/" to "/research/"
+      <br><br>
      - You can also change the folder titled "_publications" to research.
 </details>
 
