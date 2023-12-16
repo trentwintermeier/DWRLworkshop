@@ -251,12 +251,9 @@ While this website is free, the only part that you can choose to pay for is the 
 I decided to forward users instead of connecting the domain via GitHub. This way I can build different sites and switch between them more seamlessly. Basically, any time someone navigates to "www.trentwintermeier.com" or "trentwintermeier.com" they are forwarded to my GitHub URL. This is opposite to changing the domain in GitHub which actually changes the URL through GitHub pages. You can do the latter option in your settings and going to "Pages." If plan to change your site repository one day, or move from GitHub to Square Space (when you're making "big" academic money), you only need to update information with your domain provider.
 
 For now, you can build as many websites as you'd like (for free!) and put the long URL somewhere or hyperlink it in other spaces. 
-
-<p style="text-align: center;">
    
 # You now have a free website! Woohoo!
 
-</p>
 
 
 
