@@ -37,11 +37,11 @@ To see your site, which is just a copy of mine, go back to "Settings" and "Pages
 
 Editing your website requires familiarity with the repository that you've just forked. It also requires a little familiarity with Markdown or HTML (here's a helpful style guide for beginners: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). I'll identify some of the folders that we can work in and edit today, but you'll have to do the rest. To edit a page, click the pencil icon on the top right corner of a file. To save your change, click the green "Commit changes" button and confirm the commit. Refresh to see the status of your change.
 
-<details open>
+<details closed>
 <summary>1. Navigation pages: Under the "Data" folder, you can edit the titles for the navigation pages. Just go to "navigation.yml" and edit the name after "Title:." For example, you can change the title of "Publications" to "Research."</summary>
 <br>
    - After we do this, we'll want to edit the page name and permalink to reflect the title change. Under the "Pages" folder (which holds the files of the navigation pages), find the "Publication.md" file and change the following:
-   <br><br>
+   <br>
      - At the top, change the file name from "/_pages/publications.md" to "/_pages/research.md
       <br>
      - Title from "Publications" to "Research
