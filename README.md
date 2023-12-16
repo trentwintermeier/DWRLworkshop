@@ -43,11 +43,11 @@ Editing your website requires familiarity with the repository that you've just f
    - After we do this, we'll want to edit the page name and permalink to reflect the title change. Under the "Pages" folder (which holds the files of the navigation pages), find the "Publication.md" file and change the following:
    <br><br>
      - At the top, change the file name from "/_pages/publications.md" to "/_pages/research.md
-      <br><br>
+      <br>
      - Title from "Publications" to "Research
-      <br><br>
+      <br>
      - Permalink from "/publications/" to "/research/"
-      <br><br>
+      <br>
      - You can also change the folder titled "_publications" to research.
 </details>
 
