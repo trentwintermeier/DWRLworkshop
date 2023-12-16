@@ -209,6 +209,10 @@ When I asked ChatGPT to develop this 2-column CV, below is the response, which c
 
 Or, if you know what you want ChatGPT to generate, asking for the code can still be helpful as ChatGPT usually will write the entire document for you-- like the elements for the body, head, and etc. ChatGPT may also style what you're looking for, which you can delete, change, or keep. For example, I want to use an iframe for my CV that is in a Google Doc. If I ask ChatGPT to "Please write an iframe for my CV," this is the code I get: 
 
+<details closed>
+<summary>
+   Response 2
+</summary>
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
@@ -230,7 +234,7 @@ Or, if you know what you want ChatGPT to generate, asking for the code can still
 </body>
 
 </html>
-
+</details>
 
 Now, all I need to do is put in the iframe for my CV. To do this, follow these steps:
 1. Navigate to Google Docs and your CV document
