@@ -252,7 +252,11 @@ I decided to forward users instead of connecting the domain via GitHub. This way
 
 For now, you can build as many websites as you'd like (for free!) and put the long URL somewhere or hyperlink it in other spaces. 
 
+<center>
+   
 # You now have a free website! Woohoo!
+
+</center>
 
 
 
