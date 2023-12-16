@@ -51,24 +51,32 @@ Editing your website requires familiarity with the repository that you've just f
      - You can also change the folder titled "_publications" to research.
 </details>
 
-1. Navigation pages: Under the "Data" folder, you can edit the titles for the navigation pages. Just go to "navigation.yml" and edit the name after "Title:." For example, you can change the title of "Publications" to "Research."
-   - After we do this, we'll want to edit the page name and permalink to reflect the title change. Under the "Pages" folder (which holds the files of the navigation pages), find the "Publication.md" file and change the following:
-     - At the top, change the file name from "/_pages/publications.md" to "/_pages/research.md
-     - Title from "Publications" to "Research
-     - Permalink from "/publications/" to "/research/"
-     - You can also change the folder titled "_publications" to research.
-    
-2. Since we're under the "_publications" folder--or, now, what may be the "_research" folder-- let's look at adding research or publication information. The two files titled "publication1.md" and "publication2.md" is where you'll imput information on your research and/or publications. Upon clicking one of those files, you'll see where you can put that data in an section already styled for you. You just have to find and replace.
+<details closed>
+<summary>2. Since we're under the "_publications" folder--or, now, what may be the "_research" folder-- let's look at adding research or publication information. The two files titled "publication1.md" and "publication2.md" is where you'll imput information on your research and/or publications. Upon clicking one of those files, you'll see where you can put that data in an section already styled for you. You just have to find and replace.
+</summary>
+<br>
    - Finding and replacing data under the other navigation titles is just as simple. Under the "_talks" folder, you'll see the file "_talk1.md" which is where you can put information on talks you've given.
+   <br>
    - Under "_teaching" and, then, "class1.md," you can input information on the classes you've taught.
+   <br>
      - However, if you have a second class you'd like to list, you will have to add a file.
+   <br>
        - Click on "_teaching" and click "Add file" and "Create new file"
+   <br>
        - Then, name it something like "class2.md" -- and you can always change these names to reflect your class names. Save this file.
+   <br>
        - Go back to "class1.md" and copy the raw data. Paste this in the "class2.md" file and change the data to fit the new class you're adding. Save and you should see a second class under "Teaching" on your website.
+</details>    
 
+<details closed>
+<summary>
 3. Page name and author configuration: The "config.yml" file stores some of the important data for your site and also is where we can change the information for the page. Navigate to the "config.yml" and you can find where some of the language in your site corresponds to the code in this file. You can find and change the following:
+   </summary>
+   <br>
    - Under site settings, find the "title" column and change "My Homepage" to your name. This will change the title of the page in your browser tab and the name of the page on the site.
+   <br>
    - Under site author, change "Name1 Name2" to your first and last name. You can change your bio, email, and add in other social links. The information following # shows you how to format code, which is helpful for the social links.
+   </details>   
 
 # Step 6: Editing Your Website with ChatGPT
 
@@ -76,7 +84,11 @@ ChatGPT can generate code that, in my experience, is very reliable if you know h
 
 When I asked ChatGPT to develop this 2-column CV, below is the response, which can be copy and pasted in the CV.md file under "Pages". This comes up a little weird with the Jekyll style being used, so we may want to ask ChatGPT to generate a new format or to remove the box coming up at the top of the page. 
 
-
+<details closed>
+<summary>
+   Response 1
+</summary>
+   
 <!DOCTYPE html>
 <html lang="en">
 
@@ -193,6 +205,7 @@ When I asked ChatGPT to develop this 2-column CV, below is the response, which c
 </body>
 
 </html>
+</details> 
 
 Or, if you know what you want ChatGPT to generate, asking for the code can still be helpful as ChatGPT usually will write the entire document for you-- like the elements for the body, head, and etc. ChatGPT may also style what you're looking for, which you can delete, change, or keep. For example, I want to use an iframe for my CV that is in a Google Doc. If I ask ChatGPT to "Please write an iframe for my CV," this is the code I get: 
 
