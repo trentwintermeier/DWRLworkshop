@@ -2,9 +2,7 @@
 This workshop will teach participants how to use GitHub (GH) and GitHub Pages to build and host static websites. GH allows for users to store and manage code. And by using GitHub Pages, users are able to publish
 online websites.
 
-<center>
-<img src="assets/Untitled 1.jpg" height="500" width="500">
-</center>
+<img src="assets/Untitled 1.jpg" height="300" width="300">
 
 # Step 1: Creating a GitHub Account
 First, if you're here, you probably already have a GH account. However, the first part of this workshop will show you how to make a GH account and navigate a GH repository (which is a collection of files that include code and other elements related to a single project). To create an account, begin [here](https://github.com/join). 
