@@ -106,11 +106,10 @@ Editing your website requires familiarity with the repository that you've just f
    - Under site settings, find the "title" column and change "My Homepage" to your name. This will change the title of the page in your browser tab and the name of the page on the site.
    <br>
    - Under site author, change "Name1 Name2" to your first and last name. You can change your bio, email, and add in other social links. The information following # shows you how to format code, which is helpful for the social links.
-   </details>   
-
+   <br>
 <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/config1.png">
-
 <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/config2.png">
+</details>   
 
 # Step 6: Editing Your Website with ChatGPT
 
