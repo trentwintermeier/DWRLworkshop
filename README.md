@@ -86,6 +86,8 @@ Editing your website requires familiarity with the repository that you've just f
 
 ChatGPT can generate code that, in my experience, is very reliable if you know how to phrase your question right. This is a really helpful resource if you're new to coding and sometimes don't know either (1) what you're doing and/or (2) don't know how to look for what you want in your website. For example, say you want a 2 column CV under the CV header. What you need is two horizontal containers, which is difficult to know if you aren't familiar with HTML. If we ask Chatgpt to "In HTML, please write code for a 2-column CV for my website," it will give you code for two horizontal containers. ChatGPT bypasses the language needed to even begin to searching the internet, which is why I recommend using it for more complicated code. 
 
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/chatgpt.png">
+
 When I asked ChatGPT to develop this 2-column CV, below is the response, which can be copy and pasted in the CV.md file under "Pages". This comes up a little weird with the Jekyll style being used, so we may want to ask ChatGPT to generate a new format or to remove the box coming up at the top of the page. 
 
 <details closed>
