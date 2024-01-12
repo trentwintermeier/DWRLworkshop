@@ -40,7 +40,7 @@ Navigate to the GH repository page for the Jekyll-based site and click "Fork" up
 
 # Step 4: Publishing via GitHub Pages
 
-With your own repository, you now have a complete copy of one of the websites. However, this isn't published online as of now. You just have the code sitting in your account, which is one of the reasons why people use GitHub: to store code. However, GH also allows users to create static sites with that code FOR FREE. To do this, follow these steps:
+With your own repository, you now have a complete copy of one of the websites. However, this isn't published online as of now. You just have the code sitting in your account, which is one of the reasons why people use GitHub: to store code. However, GH also allows users to create static sites with that code ~for free~. To do this, follow these steps:
 
 1. Click "Settings" on the top bar. It's at the end of the line that says "Code." Note that this is not your account settings but your repository settings, so everything you edit here will only apply to your repository that you're working in. 
 2. Go to the bottom of the second section in the left side bar and click "Pages." This is where you'll access and configure the GitHub Pages function.
