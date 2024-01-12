@@ -2,17 +2,19 @@
 This workshop will teach participants how to use GitHub (GH) and GitHub Pages to build and host static websites. GH allows for users to store and manage code. And by using GitHub Pages, users are able to publish
 online websites.
 
-<img src="assets/Untitled 1.jpg" height="300" width="300">
-
 # Step 1: Creating a GitHub Account
 First, if you're here, you probably already have a GH account. If you don't, to create an account, begin [here](https://github.com/join). 
 
 Once you've logged in or created an account, you may be directed to a couple different pages. The first is your profile: this is where you'll see your own repositories and your account information. If you have no current repositories, you won't see much on this page. If you do have repositories, you'll see your most "popular" repositories-- the ones you engage with most frequently or most recently. At the top of your profile, you can add a "readme.md," which is basically a space for a bio (in this case) or information and context about a project (like in what you're reading here). 
 
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/dashboard.png">
+
 The other page you may be brought to is your home screen: this is where you can see and find other repositories and news from GH. 
 
 # Step 2: Navigating a Repository
 On the left and top right of any GH page, you'll find a space to search for other repositories or find your own repositories. This is how you can find this repository; try searching for my account "trentwintermeier" or "DWRLworkshop." You can find this repository and do a bunch of different things with it.
+
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/dwrlrepo.png">
 
 Under the "about" section, you'll find a short explanation of the project, links to the published sites, and potentially other interactive components like the amount of people "watching" this repository, forking the repository (copying), and starring the repository for later use. On the left side of the repository, you'll see associated files. That's what is above this text. This can include folders or individual files-- it really depends on how that user is organizing their code or other data and uploaded files (like images, etc.). 
 
@@ -21,9 +23,16 @@ Now that you have a GH account and are familiar with a repository, we'll want to
 
 1. Traditional: ([see above](https://github.com/trentwintermeier/DWRLtemplate)) This isn't entirely my own, which is why it's more complex, the best looking, and more informative. I forked this repository from a user, matthewkirby, who is using MinimalMistakes, which is a Jekyll (a static site generator) theme that works well for personal websites or portfolios. The benefit of this website is that it does a pretty seamless job of communicating information in a way that readers are used to. The front page has space for a bio, which is alongside your contact information, socials, and affiliation. At the top right, you can list ongoing projects, your CV, contact information, and even a blog or photos or whatever else you'd like to include.
 
-2. Horizontal: ([my website](https://www.trentwintermeier.com/)) I like this version, so this is what I'm using currently. I coded it myself, with the help of ChatGPT, so it's really basic but, I think, makes more sense to me as a beginner. To access this repository, click the "My template" folder above. In the repository, all we have is an index.html file and a folder for assets like images. On the website, I was inspired by [Virginia L. Montgomery](https://www.hellovlm.com/). The page scrolls, at large, horizontally, but each container scrolls vertically. I also like the overload of information this provides while also disrupting more traditional ways of engaging with a website.
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/jekyllsite.png">
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/livesite.png">
+
+3. Horizontal: ([my website](https://www.trentwintermeier.com/)) I like this version, so this is what I'm using currently. I coded it myself, with the help of ChatGPT, so it's really basic but, I think, makes more sense to me as a beginner. To access this repository, click the "My template" folder above. In the repository, all we have is an index.html file and a folder for assets like images. On the website, I was inspired by [Virginia L. Montgomery](https://www.hellovlm.com/). The page scrolls, at large, horizontally, but each container scrolls vertically. I also like the overload of information this provides while also disrupting more traditional ways of engaging with a website.
+
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/mywebsite.png">
 
 Navigate to the GH repository page for the Jekyll-based site and click "Fork" up in the right side of the screen, next to "Watch" and "Star." This will create your own version of my repoistory as your own repository. Any changes either of us make to these repositories will not impact each other-- once you fork a repository, they become separated. All you are doing is copying this repository into your own account.
+
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/fork.png">
 
 # Step 4: Publishing via GitHub Pages
 
@@ -81,6 +90,10 @@ Editing your website requires familiarity with the repository that you've just f
    <br>
    - Under site author, change "Name1 Name2" to your first and last name. You can change your bio, email, and add in other social links. The information following # shows you how to format code, which is helpful for the social links.
    </details>   
+
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/config1.png">
+
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/config2.png">
 
 # Step 6: Editing Your Website with ChatGPT
 
@@ -248,6 +261,8 @@ Now, all I need to do is put in the iframe for my CV. To do this, follow these s
 3. Instead of "Link" click "Embed." Confirm your choice.
 4. Copy the iframe
 
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/iframe.png">
+
 Once you have the iframe, just replace either the entire iframe line or the link in quotes. Now, when you update your CV, you don't have to update it in two places; just update the iframe link in your website. 
 
 # Step 7: Connecting a Domain
@@ -255,6 +270,8 @@ Once you have the iframe, just replace either the entire iframe line or the link
 While this website is free, the only part that you can choose to pay for is the domain. You don't have to do this; you can just direct people to the site's URL that GitHub generates for your (username + GitHub.io + repository name). It is quite long, though. I decided to use a domain because it was still cheaper than hosting a website on a site like SquareSpace, which is still $5 per month. I used Google Domains, which doesn't exist any more, but I'm guessing connecting domains to your site is pretty similar among providers. 
 
 I decided to forward users instead of connecting the domain via GitHub. This way I can build different sites and switch between them more seamlessly. Basically, any time someone navigates to "www.trentwintermeier.com" or "trentwintermeier.com" they are forwarded to my GitHub URL. This is opposite to changing the domain in GitHub which actually changes the URL through GitHub pages. You can do the latter option in your settings and going to "Pages." If plan to change your site repository one day, or move from GitHub to Square Space (when you're making "big" academic money), you only need to update information with your domain provider.
+
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/domain.png">
 
 For now, you can build as many websites as you'd like (for free!) and put the long URL somewhere or hyperlink it in other spaces. 
    
