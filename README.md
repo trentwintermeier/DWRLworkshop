@@ -1,4 +1,4 @@
-# Introduction
+# Intro
 This workshop will teach participants how to use GitHub (GH) and GitHub Pages to build and host static websites. GH allows for users to store and manage code. And by using GitHub Pages, users are able to use that stored code to publish online websites.
 
 # Step 1: Creating a GitHub Account
@@ -73,11 +73,11 @@ Editing your website requires familiarity with the repository that you've just f
       <br>
      - Permalink from "/publications/" to "/research/"
       <br>
-     - You can also change the folder titled "_publications" to research.
+     - You can also change the folder titled "_publications" to "_research" -- the folder is just three files below on the left navigation.
 </details>
 
 <details closed>
-<summary>2. Since we're under the "_publications" folder--or, now, what may be the "_research" folder-- let's look at adding research or publication information. The two files titled "publication1.md" and "publication2.md" is where you'll imput information on your research and/or publications. Upon clicking one of those files, you'll see where you can put that data in an section already styled for you. You just have to find and replace.
+<summary>2. Since we're under the "_publications" folder--or, now, what may be the "_research" folder-- let's look at adding research or publication information. The two files titled "publication1.md" and "publication2.md" is where you'll input information on your research and/or publications. Upon clicking one of those files, you'll see where you can put that data in an section already styled for you. You just have to find and replace.
 </summary>
 <br>
     <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/publications1md.png">
