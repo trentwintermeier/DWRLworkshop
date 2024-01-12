@@ -5,14 +5,19 @@ online websites.
 # Step 1: Creating a GitHub Account
 First, if you're here, you probably already have a GH account. If you don't, to create an account, begin [here](https://github.com/join). 
 
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/signin.png">
+
 Once you've logged in or created an account, you may be directed to a couple different pages. The first is your profile: this is where you'll see your own repositories and your account information. If you have no current repositories, you won't see much on this page. If you do have repositories, you'll see your most "popular" repositories-- the ones you engage with most frequently or most recently. At the top of your profile, you can add a "readme.md," which is basically a space for a bio (in this case) or information and context about a project (like in what you're reading here). 
 
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/profile.png">
 <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/dashboard.png">
 
 The other page you may be brought to is your home screen: this is where you can see and find other repositories and news from GH. 
 
 # Step 2: Navigating a Repository
 On the left and top right of any GH page, you'll find a space to search for other repositories or find your own repositories. This is how you can find this repository; try searching for my account "trentwintermeier" or "DWRLworkshop." You can find this repository and do a bunch of different things with it.
+
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/reposearch.png">
 
 <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/dwrlrepo.png">
 
@@ -24,7 +29,7 @@ Now that you have a GH account and are familiar with a repository, we'll want to
 1. Traditional: ([see above](https://github.com/trentwintermeier/DWRLtemplate)) This isn't entirely my own, which is why it's more complex, the best looking, and more informative. I forked this repository from a user, matthewkirby, who is using MinimalMistakes, which is a Jekyll (a static site generator) theme that works well for personal websites or portfolios. The benefit of this website is that it does a pretty seamless job of communicating information in a way that readers are used to. The front page has space for a bio, which is alongside your contact information, socials, and affiliation. At the top right, you can list ongoing projects, your CV, contact information, and even a blog or photos or whatever else you'd like to include.
 
 <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/jekyllsite.png">
-<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/livesite.png">
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/templatewebsite.png">
 
 3. Horizontal: ([my website](https://www.trentwintermeier.com/)) I like this version, so this is what I'm using currently. I coded it myself, with the help of ChatGPT, so it's really basic but, I think, makes more sense to me as a beginner. To access this repository, click the "My template" folder above. In the repository, all we have is an index.html file and a folder for assets like images. On the website, I was inspired by [Virginia L. Montgomery](https://www.hellovlm.com/). The page scrolls, at large, horizontally, but each container scrolls vertically. I also like the overload of information this provides while also disrupting more traditional ways of engaging with a website.
 
@@ -42,9 +47,13 @@ With your own repository, you now have a complete copy of one of the websites. H
 2. Go to the bottom of the second section in the left side bar and click "Pages." This is where you'll access and configure the GitHub Pages function.
 3. Under "Source" confirm that "Deploy from a branch" is selected. This is telling GitHub pages that we want to build a site from a branch (a section of code) in our repository. Below that, under "Branch," change the drop down from "None" to "Main." This identifies which branch (you only have 1) you want to publish as your site. A box should pop up to the right that says "/(root)"-- leave that as it is. Save if you need to.
 
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/pages.png">
+
 It may take a minute to build-- which is to say that any time you make a change in GH to a repository using GitHub Pages, it will take a minute (depending on the type of change) to reflect that change. Since we just told GH to build an entire website, it can take a little longer, but it's still really quick. The status of these changes is reflected under the "Code" heading, next to your name and the name of the change. There should be a small orange dot (meaning in-progress), a green check (meaning done), or a red X (meaning failed). 
 
 To see your site, which is just a copy of mine, go back to "Settings" and "Pages," and then at the top of that section there should be a box that reads "Your site s live at [link]." Click that link or "Visit Site" to see your published website. This is completely live, so anyone with this link can see this page. Notice that your website link is your GH username and repository name-- we'll talk about domains later.
+
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/livesite.png">
 
 # Step 5: Editing Your Website in GitHub
 
@@ -53,7 +62,11 @@ Editing your website requires familiarity with the repository that you've just f
 <details closed>
 <summary>1. Navigation pages: Under the "Data" folder, you can edit the titles for the navigation pages. Just go to "navigation.yml" and edit the name after "Title:." For example, you can change the title of "Publications" to "Research."</summary>
 <br>
+   <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/navigation.png">
+   <br>
    - After we do this, we'll want to edit the page name and permalink to reflect the title change. Under the "Pages" folder (which holds the files of the navigation pages), find the "Publication.md" file and change the following:
+   <br>
+  <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/publicationsmd.png">
    <br>
      - At the top, change the file name from "/_pages/publications.md" to "/_pages/research.md
       <br>
@@ -68,6 +81,8 @@ Editing your website requires familiarity with the repository that you've just f
 <summary>2. Since we're under the "_publications" folder--or, now, what may be the "_research" folder-- let's look at adding research or publication information. The two files titled "publication1.md" and "publication2.md" is where you'll imput information on your research and/or publications. Upon clicking one of those files, you'll see where you can put that data in an section already styled for you. You just have to find and replace.
 </summary>
 <br>
+    <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/publications1md.png">
+   <br>
    - Finding and replacing data under the other navigation titles is just as simple. Under the "_talks" folder, you'll see the file "_talk1.md" which is where you can put information on talks you've given.
    <br>
    - Under "_teaching" and, then, "class1.md," you can input information on the classes you've taught.
@@ -75,6 +90,8 @@ Editing your website requires familiarity with the repository that you've just f
      - However, if you have a second class you'd like to list, you will have to add a file.
    <br>
        - Click on "_teaching" and click "Add file" and "Create new file"
+   <br>
+<img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/teaching.png">  
    <br>
        - Then, name it something like "class2.md" -- and you can always change these names to reflect your class names. Save this file.
    <br>
