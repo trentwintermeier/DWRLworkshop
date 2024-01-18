@@ -34,7 +34,7 @@ Now that you have a GH account and are familiar with a repository, we'll want to
 
 <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/mywebsite.png">
 
-Navigate to the GH repository page for the Jekyll-based site (choose my blank template, not the pre-filled one) and click "Fork" up in the right side of the screen, next to "Watch" and "Star." This will create your own version of my repoistory as your own repository. Any changes either of us make to these repositories will not impact each other-- once you fork a repository, they become separated. All you are doing is copying this repository into your own account.
+Navigate to the GH repository page for the Jekyll-based site (choose my blank template, not the pre-filled one) and click "Fork" up in the right side of the screen, next to "Watch" and "Star." This will create your own version of my repoistory as your own repository. *Note that you will have to "commit changes" and then "confirm" this to process any action.* Any changes either of us make to these repositories will not impact each other-- once you fork a repository, they become separated. All you are doing is copying this repository into your own account.
 
 <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/fork.png">
 
