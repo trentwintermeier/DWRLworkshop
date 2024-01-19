@@ -72,12 +72,10 @@ Editing your website requires familiarity with the repository that you've just f
      - Title from "Publications" to "Research
       <br>
      - Permalink from "/publications/" to "/research/"
-      <br>
-     - You can also change the folder titled "_publications" to "_research" -- the folder is just three files below on the left navigation.
 </details>
 
 <details closed>
-<summary>2. Since we're under the "_publications" folder--or, now, what may be the "_research" folder-- let's look at adding research or publication information. The two files titled "publication1.md" and "publication2.md" is where you'll input information on your research and/or publications. Upon clicking one of those files, you'll see where you can put that data in an section already styled for you. You just have to find and replace.
+<summary>2. Next, go to the "_publications" folder-- let's look at adding research or publication information. The two files titled "publication1.md" and "publication2.md" is where you'll input information on your research and/or publications. Upon clicking one of those files, you'll see where you can put that data in an section already styled for you. You just have to find and replace.
 </summary>
 <br>
     <img src="https://github.com/trentwintermeier/DWRLworkshop/blob/main/assets/publications1md.png">
